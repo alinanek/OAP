@@ -7,7 +7,7 @@ int main () {
 
     double miliRentgen = microZivert * 0.115;
 
-    std::cout << "Количество милирентгенов:" << miliRentgen << std::endl;
+    std::cout << microZivert << " микрозивертов = " << miliRentgen << " микрорентгенов" << std::endl;
     
     return 0;
 }

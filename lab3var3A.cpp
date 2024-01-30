@@ -18,8 +18,8 @@ int main() {
     double h = (b - a)/10;
     double x = a;
     std::cout << "x   y(x)" << std::endl;
-    while (x <= b) {
-        double answer;
+    while (x <= b + h * 0.5) {
+        double answer=0;
         for (int i = 1; i <= n; i += 1) {
             answer += (2 * tan(i * x) * exp(2 * i));
         } 
